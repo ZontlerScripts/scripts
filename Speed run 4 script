@@ -1,0 +1,862 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+OrionLib:MakeNotification({
+	Name = "HEY!",
+	Content = "This script was made by zontler.",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+
+
+local Window = OrionLib:MakeWindow({Name = "Speed Run 4", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+local Tab1 = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab1:AddButton({
+	Name = "Buy Random Dimension (1200 gems)",
+	Callback = function()game:GetService("ReplicatedStorage"):WaitForChild("PlayerBuyRandomDimension"):FireServer()
+
+      		print("button pressed")
+  	end    
+})
+Tab1:AddButton({
+	Name = "Normal Autofarm (rejoin to stop)",
+	Callback = function()local i = 1
+while i <= 99999 do
+
+local args = {
+    [1] = "Normal"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SetDimension"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(1)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+
+i += 1
+end
+      		print("button pressed")
+  	end    
+})
+
+
+
+
+
+
+
+
+
+--FAST AUTOFARM
+
+
+
+
+
+
+
+
+
+
+Tab1:AddButton({
+	Name = "Fast Autofarm  (could possibly be laggy)",
+	Callback = function()local i = 1
+while i <= 99999 do
+
+local args = {
+    [1] = "Normal"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SetDimension"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+wait(0.2)
+local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+
+i += 1
+end
+      		print("button pressed")
+  	end    
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+local Tab = Window:MakeTab({
+	Name = "Normal",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "Next level",
+	Callback = function()local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+Tab:AddButton({
+	Name = "Start of level",
+	Callback = function()local args = {
+    [1] = "Normal"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SetDimension"):FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+
+
+local Tab2 = Window:MakeTab({
+	Name = "Peach Desert",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab2:AddButton({
+	Name = "Next level",
+	Callback = function()local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+Tab2:AddButton({
+	Name = "Start of level",
+	Callback = function()local args = {
+    [1] = "Peach Desert"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SetDimension"):FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+
+
+
+local Tab3 = Window:MakeTab({
+	Name = "Cybernaut",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab3:AddButton({
+	Name = "Next level",
+	Callback = function()local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+Tab3:AddButton({
+	Name = "Start of level",
+	Callback = function()local args = {
+    [1] = "Cybernaut"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SetDimension"):FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+
+
+
+local Tab4 = Window:MakeTab({
+	Name = "Moon",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab4:AddButton({
+	Name = "Next level",
+	Callback = function()local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+Tab4:AddButton({
+	Name = "Start of level",
+	Callback = function()local args = {
+    [1] = "Moon"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SetDimension"):FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+
+
+
+
+local Tab5 = Window:MakeTab({
+	Name = "Cosmic",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab5:AddButton({
+	Name = "Next level",
+	Callback = function()local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+Tab5:AddButton({
+	Name = "Start of level (buggy)",
+	Callback = function()local args = {
+    [1] = "Cosmic"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SetDimension"):FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+
+
+
+
+local Tab6 = Window:MakeTab({
+	Name = "Chromium",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab6:AddButton({
+	Name = "Next level",
+	Callback = function()local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+Tab6:AddButton({
+	Name = "Start of level (buggy)",
+	Callback = function()local args = {
+    [1] = "Chromium"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SetDimension"):FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+
+
+
+
+
+local Tab7 = Window:MakeTab({
+	Name = "Birchock",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab7:AddButton({
+	Name = "Next level",
+	Callback = function()local args = {
+    [1] = "Level 2",
+    [2] = "Normal",
+    [3] = true
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("BeatLevel"):FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
+Tab7:AddButton({
+	Name = "Start of level",
+	Callback = function()local args = {
+    [1] = "Birchock"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("SetDimension"):FireServer(unpack(args))
+
+      		print("button pressed")
+  	end    
+})
